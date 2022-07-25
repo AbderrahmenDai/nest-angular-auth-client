@@ -10,6 +10,21 @@
         matInput
       />
     </mat-form-field>
+    
+    <mat-form-field class="full-width">
+      <mat-label>Number of members</mat-label>
+      <input formControlName="nbrOfMember" type="number" matInput>
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>Number of sprints</mat-label>
+      <input formControlName="numberOfSprint" type="number" matInput>
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>Time of room</mat-label>
+      <input formControlName="duration" type="number" matInput placeholder="time of room">
+    </mat-form-field>
     <mat-slide-toggle
       class="d-block mb-3"
       color="primary"
